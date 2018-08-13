@@ -1,0 +1,27 @@
+@(content: Html)
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Markov Generator</title>
+        <link rel="stylesheet" type="text/css" href='@routes.Assets.versioned("stylesheets/markov.css")'>
+        <link rel="shortcut icon" type="image/png" href="@routes.Assets.versioned("images/favicon.png")">
+    </head>
+    <body>
+        <div class="content">
+            <div class="title">Markov Text Generator</div>
+            <div class="buttons">
+                <div class="linkbutton">
+                    <a href="/markov/bijbel">Bijbel</a>
+                </div>
+                <div class="linkbutton">
+                    <a href="/markov/grap">Grap</a>
+                </div>
+                <div class="linkbutton">
+                    <a href="/markov/wetboek">Wetboek</a>
+                </div>
+            </div>
+            @content
+        </div>
+    </body>
+</html>

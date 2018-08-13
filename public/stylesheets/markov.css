@@ -1,0 +1,43 @@
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.linkbutton a {
+    background-color: red;
+    box-shadow: 0 5px 0 darkred;
+    color: white;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    float: left;
+    margin: 0.3em;
+}
+
+.title {
+    color: red;
+    font-size: 2em;
+}
+
+.linkbutton a:hover {
+    background-color: #ce0606;
+    cursor: pointer;
+}
+
+.linkbutton a:active {
+    box-shadow: none;
+    top: 5px;
+}
+
+p {
+    display: inline-block;
+    width: 100%;
+}
+
+.buttons {
+    width: 100%;
+}
+
+.content {
+    width: 75%;
+    margin-left: 12.5%;
+}
