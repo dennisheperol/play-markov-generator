@@ -30,6 +30,6 @@ class TestController extends Controller{
       }
     }
 
-    Ok(views.html.markov(sentence))
+    Ok(views.html.markov(sentence, text))
   }
 }

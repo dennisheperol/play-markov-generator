@@ -1,5 +1,6 @@
-@(markov: String)
+@(markov: String, subtitle: String)
 
 @markovlayout {
+    <div class="subtitle">@subtitle</div>
     <p>@Html(markov)</p>
 }

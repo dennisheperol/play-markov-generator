@@ -18,6 +18,15 @@ body {
     font-size: 2em;
 }
 
+.subtitle {
+    color: red;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    width: 100%;
+    display: inline-block;
+    margin-top: 1em;
+}
+
 .linkbutton a:hover {
     background-color: #ce0606;
     cursor: pointer;
@@ -41,3 +50,12 @@ p {
     width: 75%;
     margin-left: 12.5%;
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
