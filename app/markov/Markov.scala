@@ -1,9 +1,6 @@
 package markov
 
-import java.io.BufferedReader
-
 import scala.collection.mutable
-import scala.io.Source
 import scala.util.Random
 
 class MarkovWords {
@@ -100,18 +97,3 @@ class MarkovParser(val filename: String) {
     output
   }
 }
-
-//object Markov {
-//  def main(args: Array[String]) : Unit = {
-//    val markovParser = new MarkovParser("bijbel.txt")
-//    val markovWords = markovParser.getWords(2)
-//
-//    var word = "\n"
-//    var i = 100
-//    while (i > 0) {
-//      word = markovWords.getANextWord(word).get
-//      if (word != "\n") print(word) else println()
-//      if (word == "\n") i -= 1
-//    }
-//  }
-//}
